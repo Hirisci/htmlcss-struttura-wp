@@ -9,7 +9,6 @@
 .container{
     width: 1280px;
     margin: auto;
-    background-color: brown;
 }
 
 .clearfix::after{
@@ -46,20 +45,25 @@ footer{
 
 /*SECTION LAYOUT*/
 
-section.layout div{
-    background-color: aquamarine;
-}
-
 div.head{
     min-height: 100px;
     margin-bottom: 15px;
+    background-color: aquamarine
 }
 
-div.left,div.right{
+div.left, div.right{
     float: left;
+    width: 20%;
+    min-height: 400px;
+    background-color: aquamarine
 }
 
 div.mid{
     float: left;
+    width: calc(60% - 30px);
+    margin: 0 15px;
+    min-height: 400px;
+    background-color: aquamarine
+    
 }
 
