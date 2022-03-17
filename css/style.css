@@ -55,7 +55,8 @@ div.left, div.right{
     float: left;
     width: 20%;
     min-height: 400px;
-    background-color: aquamarine
+    background-color: aquamarine;
+    margin-bottom: 15px;
 }
 
 div.mid{
