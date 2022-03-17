@@ -9,13 +9,57 @@
 .container{
     width: 1280px;
     margin: auto;
+    background-color: brown;
 }
 
-.clerfix::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
 /*TAG SEMANTICI*/
+
+header{
+    height: 150px;
+    background-color: darksalmon;
+}
+main{
+    margin:15px 0;
+}
+
+section.immagini{
+    min-height: 400px;
+    background-color: yellow;
+    margin-bottom: 15px;
+}
+
+section.layout{
+    min-height: 500px;
+    background-color: blue;
+}
+
+footer{
+    height: 100px;
+    background-color: blueviolet;
+}
+
+/*SECTION LAYOUT*/
+
+section.layout div{
+    background-color: aquamarine;
+}
+
+div.head{
+    min-height: 100px;
+    margin-bottom: 15px;
+}
+
+div.left,div.right{
+    float: left;
+}
+
+div.mid{
+    float: left;
+}
 
