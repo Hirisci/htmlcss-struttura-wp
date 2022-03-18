@@ -51,7 +51,7 @@ div.head{
     background-color: aquamarine
 }
 
-div.left, div.right{
+div.col-left, div.col-right{
     float: left;
     width: 20%;
     min-height: 400px;
@@ -59,7 +59,7 @@ div.left, div.right{
     margin-bottom: 15px;
 }
 
-div.mid{
+div.col-mid{
     float: left;
     width: calc(60% - 30px);
     margin: 0 15px;
